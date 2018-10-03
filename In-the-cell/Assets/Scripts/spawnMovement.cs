@@ -9,13 +9,14 @@ public class spawnMovement : MonoBehaviour {
     // Use this for initialization
     void Start () {
         speed = 5f;
+      
 	}
 	
 	// Update is called once per frame
 	void Update () {
       //  transform.position = Vector3.MoveTowards(transform.position, target.transform.position, speed * Time.deltaTime);
-        transform.Translate(Vector3.right * speed * Time.deltaTime);
-        if (transform.position.x >= target.transform.position.x+1)
+        transform.Translate(Vector3.back * speed * Time.deltaTime);
+        if (transform.position.z <= target.transform.position.z-10)
         {
             Debug.Log("passed");
             Destroy(this.gameObject, 0f);
