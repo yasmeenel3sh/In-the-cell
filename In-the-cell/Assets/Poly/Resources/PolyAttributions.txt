@@ -1,0 +1,25 @@
+This project uses the following items from Poly (http://poly.google.com):
+
+Title: Butter
+Author: Jarlan Perez
+URL: https://poly.google.com/view/0AsP8A3zktZ
+License: Creative Commons CC-BY
+https://creativecommons.org/licenses/by/3.0/legalcode
+
+Title: sadfas
+Author: Cappie Regalado
+URL: https://poly.google.com/view/6iHZkWhwcXT
+License: Creative Commons CC-BY
+https://creativecommons.org/licenses/by/3.0/legalcode
+
+Title: Salad Bowl
+Author: Jarlan Perez
+URL: https://poly.google.com/view/9lnNCNuF5w0
+License: Creative Commons CC-BY
+https://creativecommons.org/licenses/by/3.0/legalcode
+
+Title: Steak
+Author: Poly by Google
+URL: https://poly.google.com/view/12kExfiW_ba
+License: Creative Commons CC-BY
+https://creativecommons.org/licenses/by/3.0/legalcode
