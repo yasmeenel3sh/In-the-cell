@@ -56,8 +56,10 @@ namespace Valve.VR.InteractionSystem
 			{
 				if ( hand.currentAttachedObject != gameObject )
 				{
-					// Save our position/rotation so that we can restore it when we detach
-					oldPosition = transform.position;
+                   GetComponent<spawnMovement>().enabled =false;
+
+                    // Save our position/rotation so that we can restore it when we detach
+                    oldPosition = transform.position;
 					oldRotation = transform.rotation;
 
 					// Call this to continue receiving HandHoverUpdate messages,

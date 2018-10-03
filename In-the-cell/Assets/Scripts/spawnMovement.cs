@@ -16,7 +16,7 @@ public class spawnMovement : MonoBehaviour {
 	void Update () {
       //  transform.position = Vector3.MoveTowards(transform.position, target.transform.position, speed * Time.deltaTime);
         transform.Translate(Vector3.back * speed * Time.deltaTime);
-        if (transform.position.z <= target.transform.position.z-10)
+        if (transform.position.z <= target.transform.position.z-20)
         {
             Debug.Log("passed");
             Destroy(this.gameObject, 0f);

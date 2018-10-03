@@ -32,7 +32,7 @@ public class Spawns : MonoBehaviour {
     void Spawn()
     {
         int toBeSpawnedIndex = Random.Range(0, spawns.Length);
-        float randomX = Random.Range(-8f, 8f);
+        float randomX = Random.Range(-2.5f, 2.5f);
         float step = speed * Time.deltaTime;
         Debug.Log(toBeSpawnedIndex);
         GameObject toBeSpawned = Instantiate(spawns[toBeSpawnedIndex], new Vector3(randomX, transform.position.y, 10f), Quaternion.identity);
