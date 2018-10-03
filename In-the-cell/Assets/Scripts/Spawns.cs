@@ -37,13 +37,13 @@ public class Spawns : MonoBehaviour
         }
         spawnCounter++;
         speedCounter++;
-        if (spawnCounter == 100)
+        if (spawnCounter == 300)
         {
-            if(spawnTime>0.7f)
+            if(spawnTime>0.8f)
             spawnTime -= 0.1f;
             spawnCounter = 0;
         }
-        if (speedCounter == 100)
+        if (speedCounter == 500)
         {
             if (speed < 10)
                 speed += 0.2f;

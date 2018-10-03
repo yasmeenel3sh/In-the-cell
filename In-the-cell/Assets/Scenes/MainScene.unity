@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028334, g: 0.22571334, b: 0.3069219, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -608,7 +608,7 @@ GameObject:
   - component: {fileID: 1714835355}
   m_Layer: 0
   m_Name: GameController
-  m_TagString: Untagged
+  m_TagString: GameController
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -642,6 +642,7 @@ MonoBehaviour:
   - {fileID: 1386223256804490, guid: 383c4439d081674479f1d280abbcd432, type: 2}
   - {fileID: 1198272110314756, guid: 1435f9eb53669524e8b3c92eb277fb41, type: 2}
   - {fileID: 1110546082850234, guid: 2917a24576e4e38469f551199798a026, type: 2}
+  speed: 0
 --- !u!1 &1832521476
 GameObject:
   m_ObjectHideFlags: 0
